@@ -15,14 +15,13 @@
     "tag": "6.2.1"
   },
   "pod_target_xcconfig": {
-    "HEADER_SEARCH_PATHS": "${PODS_TARGET_SRCROOT}/include",
+    "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}/include\" \"${PODS_ROOT}/fmt/include\"",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++14",
     "USE_HEADERMAP": "NO",
     "ALWAYS_SEARCH_USER_PATHS": "NO"
   },
   "platforms": {
-    "ios": "10.0",
-    "osx": "10.14"
+    "ios": "10.0"
   },
   "libraries": "c++",
   "source_files": [
