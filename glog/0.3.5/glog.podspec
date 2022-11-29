@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files       = "src/windows/**/*"
   spec.compiler_flags      = '-Wno-shorten-64-to-32'
   spec.pod_target_xcconfig = { "USE_HEADERMAP" => "NO",
-                               "DEFINES_MODULE' => "NO",
+                               "DEFINES_MODULE" => "NO",
                                "HEADER_SEARCH_PATHS" => "$(PODS_TARGET_SRCROOT)/src" }
 
   # Pinning to the same version as React.podspec.
